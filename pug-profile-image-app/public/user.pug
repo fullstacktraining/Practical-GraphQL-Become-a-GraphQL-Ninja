@@ -1,0 +1,22 @@
+h3= data.name
+if !data.photo
+  p
+    img(src='https://res.cloudinary.com/tamas-demo/image/upload/w_100,h_100,c_thumb,g_face,r_20/avatar.png')
+if data.photo
+  p
+    img(src=data.photo)
+if data.car.length === 0
+  p This user has no cars.
+if data.car
+  ul
+    for car in data.car
+      li #{car.make} #{car.model} (#{car.colour})
+
+p Upload a profile photo:
+form(method='post', action='/upload', enctype='multipart/form-data')
+  input(type='file', name='file')
+  input(type='hidden', value=data.id, name='id')
+  input(type='submit', value='Upload')
+
+p
+  a(href='/') Go back

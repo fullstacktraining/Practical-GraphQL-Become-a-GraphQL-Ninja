@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  p= intro
+  ul
+    for user in users
+      li
+        a(href=`user/` + user.id) #{user.name}
