@@ -4,13 +4,13 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "apollo-server": "^2.3.1",
-    "apollo-server-express": "^2.3.1",
+    "apollo-server": "^2.4.8",
+    "apollo-server-express": "^2.4.8",
     "cors": "^2.8.5",
     "express": "^4.16.4",
-    "graphql": "^14.0.2",
-    "mysql2": "^1.6.4",
-    "sequelize": "^4.42.0"
+    "graphql": "^14.2.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.3.0"
   },
   "devDependencies": {},
   "scripts": {
