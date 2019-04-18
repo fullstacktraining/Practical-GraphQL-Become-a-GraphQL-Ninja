@@ -1,6 +1,8 @@
 # Practical GraphQL - Become a GraphQL Ninja
 
-Each folder contains an individual `package.json` file which can be used to install the dependencies.
+Course material for the course **[Practical GraphQL - Become a GraphQL Ninja](https://www.fullstacktraining.com/courses/practical-graphql-become-a-graphql-ninja)**
+
+Each folder contains an individual `package.json` file which can be used to install the dependencies. View the course for more details.
 
 * fleet-app-react: Example React application to showcase Queries and Mutations in GraphQL
 * graphql-database-final: The final GraphQL instance using a relational database backend
